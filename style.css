@@ -1,0 +1,18 @@
+#currencyConverter {
+    height: 440px;
+    width: 320px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    border: 5px solid blueviolet;
+    position: absolute;
+}
+
+.formClass {
+    height: 50px;
+    width: 300px;
+    font-size: medium;
+    margin-top: 20px;
+}
+

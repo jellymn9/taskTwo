@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h3>Exchange Rates</h3>
+    <div id="todayDataId" style="height: 50%; width: 50%; background-color: coral; font-size: medium; ">
+    
+    </div>
+    <h3>Exchange Rates Week Ago</h3>
+    <div id="weekAgoDataId" style="background-color:darkgrey ;">
+
+    </div>
+    <div id="currencyConverter">
+        <label class="formClass" for="inputValueId">VALUE TO CONVERT:</label>
+        <input class="formClass" type="number" id="inputValueId" name="quantity">
+        <!-- maybe I need select tag instead input search-->
+        <label class="formClass" for="fromCurrencyId">FROM:</label>
+
+        <select class="formClass" id="fromCurrencyId">
+            
+        </select>
+        
+        <label class="formClass" for="toCurrencyId">TO:</label>
+        <select class="formClass" id="toCurrencyId">
+            
+        </select>
+        <button class="formClass" id="buttonConvert">CONVERT</button>
+        <label class="formClass" for="resultId">RESULT:</label>
+        <div class="formClass" id="resultId" >  </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
